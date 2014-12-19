@@ -1,0 +1,30 @@
+body{
+    max-width: 1170px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.login{
+    max-width: 300px;
+    margin: 100px 200px;
+}
+
+.login input{
+    position: relative;
+    font-size: 18px;
+    width: 300px;
+
+}
+
+.login .heading, .login .checkbox{
+    margin-bottom: 10px;
+}
+
+.login input:focus{
+    z-index: 5;
+}
+
+.login .input_label{
+    display: none;
+}
